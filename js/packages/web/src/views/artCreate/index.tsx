@@ -333,7 +333,7 @@ const UploadStep = (props: {
       case MetadataCategory.Audio:
         return '.mp3,.flac,.wav';
       case MetadataCategory.Image:
-        return '.png,.jpg,.gif';
+        return '.png,.jpg,.gif,.html';
       case MetadataCategory.Video:
         return '.mp4,.mov,.webm';
       case MetadataCategory.VR:
